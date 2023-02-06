@@ -139,7 +139,7 @@ After you've configured your deployment, you must start it in order to install t
 Install-AksHci
 ```
 > [!WARNING]
-> During installation of your Azure Kuberenetes Service host, a *Kubernetes - Azure Arc* resource type is created in the resource group that's set during registration. Do not delete this resource as it represents your Azure Kuberenetes Service host. You can identify the resource by checking its distribution field for a value of `aks_management`. Deleting this resource will result in an out-of-policy deployment.
+> During installation of your Azure Kubernetes Service host, a *Kubernetes - Azure Arc* resource type is created in the resource group that's set during registration. Do not delete this resource as it represents your Azure Kubernetes Service host. You can identify the resource by checking its distribution field for a value of `aks_management`. Deleting this resource will result in an out-of-policy deployment.
 
 ## Step 6: Create a Kubernetes cluster
 
